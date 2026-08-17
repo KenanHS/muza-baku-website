@@ -32,15 +32,15 @@ const business = {
 };
 
 const images = {
-  logo: '/assets/images/image.png',
-  heroInterior: '/assets/images/image copy 6.png',
-  interior: '/assets/images/image copy 5.png',
-  sharedTable: '/assets/images/image copy 7.png',
-  sushi: '/assets/images/image copy 8.png',
-  people: '/assets/images/image copy 9.png',
-  steak: '/assets/images/image copy 2.png',
-  dessert: '/assets/images/image copy 3.png',
-  drink: '/assets/images/image copy 4.png',
+  logo: `${import.meta.env.BASE_URL}assets/images/image.png`,
+  heroInterior: `${import.meta.env.BASE_URL}assets/images/image copy 6.png`,
+  interior: `${import.meta.env.BASE_URL}assets/images/image copy 5.png`,
+  sharedTable: `${import.meta.env.BASE_URL}assets/images/image copy 7.png`,
+  sushi: `${import.meta.env.BASE_URL}assets/images/image copy 8.png`,
+  people: `${import.meta.env.BASE_URL}assets/images/image copy 9.png`,
+  steak: `${import.meta.env.BASE_URL}assets/images/image copy 2.png`,
+  dessert: `${import.meta.env.BASE_URL}assets/images/image copy 3.png`,
+  drink: `${import.meta.env.BASE_URL}assets/images/image copy 4.png`,
 };
 
 const dishes = [
@@ -52,9 +52,9 @@ const dishes = [
 const gallery = [
   { image: images.interior, alt: 'Muza Baku interyerində masa və oturacaqlar' },
   { image: images.people, alt: 'Muza Baku-da dostlarla şam anı' },
-  { image: '/assets/images/image copy 10.png', alt: 'Muza Baku interyerində kitab rəfi və detallar' },
-  { image: '/assets/images/image copy 11.png', alt: 'Muza Baku-da yemək zalı və masalar' },
-  { image: '/assets/images/image copy 12.png', alt: 'Muza Baku interyerində dekorativ detal' },
+  { image: `${import.meta.env.BASE_URL}assets/images/image copy 10.png`, alt: 'Muza Baku interyerində kitab rəfi və detallar' },
+  { image: `${import.meta.env.BASE_URL}assets/images/image copy 11.png`, alt: 'Muza Baku-da yemək zalı və masalar' },
+  { image: `${import.meta.env.BASE_URL}assets/images/image copy 12.png`, alt: 'Muza Baku interyerində dekorativ detal' },
   { image: images.drink, alt: 'Muza Baku-da rəngli içki' },
   { image: images.dessert, alt: 'Muza Baku-da desert təqdimatı' },
 ];
